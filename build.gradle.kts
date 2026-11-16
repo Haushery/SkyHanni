@@ -214,6 +214,8 @@ dependencies {
     "productionRuntimeMods"(target.hypixelModApiFabricVersion)
 
     val reiVersion = when (target) {
+        // TODO: reusing the 26.2 build, no 26.3 REI build was confirmed. Update to the matching 26.3 release.
+        ProjectTarget.MODERN_26300 -> "26.2.820"
         ProjectTarget.MODERN_26200 -> "26.2.820"
         ProjectTarget.MODERN_26100 -> "26.1.819"
     }

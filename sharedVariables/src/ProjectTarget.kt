@@ -37,6 +37,21 @@ enum class ProjectTarget(
         renderChestVersion = "1.0.3+26.2",
         modrinthInfo = ModrinthInfo.FABRIC_26_2,
     ),
+    MODERN_26300(
+        "26.3",
+        MinecraftVersion.MC26300,
+        fabricLoaderVersion = "net.fabricmc:fabric-loader:0.19.5",
+        fabricApiVersion = "net.fabricmc.fabric-api:fabric-api:0.166.2+26.3",
+        fabricLanguageKotlinVersion = "net.fabricmc:fabric-language-kotlin:1.14.2+kotlin.2.4.21",
+        hypixelModApiVersion = "net.hypixel:mod-api:1.0.2",
+        // There is no 26.2 or 26.3 version; the 26.1 version works on 26.2, and is assumed to work on 26.3.
+        hypixelModApiFabricVersion = "maven.modrinth:hypixel-mod-api:1.0.2+build.1+mc26.1",
+        // TODO: carried over from 26.2, no 26.3 build was confirmed. Update to the matching 26.3 release.
+        modMenuVersion = "20.0.0-beta.4",
+        // TODO: carried over from 26.2, no 26.3 build was confirmed. Update to the matching 26.3 release.
+        renderChestVersion = "1.0.3+26.2",
+        modrinthInfo = ModrinthInfo.FABRIC_26_3,
+    ),
 
     ;
 
